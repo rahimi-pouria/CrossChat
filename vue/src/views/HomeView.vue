@@ -1,9 +1,12 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <chat />
   </main>
 </template>
+
+
+<script setup lang="ts">
+  import chat from '@/components/chat.vue';
+</script>
+
+<style scoped></style>
